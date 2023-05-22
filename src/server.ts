@@ -20,4 +20,4 @@ server.use((req,res)=>{
     res.send('Pagina não existe')
 })
 
-server.listen(process.env.PORT);
+server.listen(process.env.PORT, ()=> console.log('Servidor iniciado'));
