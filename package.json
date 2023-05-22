@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node dist/server.js",
-    "install": "tsc && copyfiles -u 1 src/**/*.mustache dist/",
+    "install": "copyfiles -u 1 src/**/*.mustache dist/",
     "dev": "nodemon -e ts,mustache,json src/server.ts"
   },
   "author": "",
